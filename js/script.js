@@ -57,10 +57,7 @@
 	//Header Search
 	if($('.search-btn').length) {
 		$('.search-btn').on('click', function() {
-			$('body').addClass('search-active');
-		});
-		$('.close-search').on('click', function() {
-			$('body').removeClass('search-active');
+			window.location.href = 'https://wa.me/+97317693915?text="Hello! I need assistance."';
 		});
 	}
 
